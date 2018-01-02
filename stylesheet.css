@@ -1,0 +1,265 @@
+body {
+	display:flex;
+	justify-content:center;
+	margin:0;
+	background-color: #f0f4fa;
+}
+.opacity{
+	opacity: 0.3;
+}
+.jk {
+	content: url(images/jungkook.png);
+}
+.suga{
+	content: url(images/suga.png);
+}
+.jin{
+	content: url(images/jin.png);
+}
+.rapmon{
+	content: url(images/rapmonster.png);
+}
+.v{
+	content: url(images/v.png);
+}
+.jimin{
+	content: url(images/jimin.png);
+}
+.jhope{
+	content: url(images/jhope.png);
+}
+.love{
+	background-image:url(images/loveyourself.jpg);
+}
+.wings{
+	content:url(images/wings.jpg);
+}
+.dark{
+	content:url(images/darkandwild.jpg);
+}
+.young{
+	content:url(images/youngforever.jpg);
+}
+.btslogo{
+	width:100vw;
+	display:flex;
+	justify-content:center;
+	}
+.logo{
+	border-top:5px solid #f0f4fa;
+	margin-bottom:10px;
+	height:107px;
+	width:190px;
+	content: url(images/btslogo2.png);
+}
+.center{
+	height:100vh;
+	width: 100vw;
+}
+.top, .bottom{
+	width:100vw;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+.btsalbum {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.album {
+	border: 5px solid #f0f4fa;
+}
+.face, .face2{
+	border: 15px solid #f0f4fa;
+}
+.facts {
+background-color:#f0f4fa;
+}
+.btsalbum:hover {
+	cursor:pointer;
+}
+/* thank you to http://bts.ibighit.com/bts.php for the background image code*/
+.background-o {
+	width:100%;
+	height:100%;
+	background:url('images/background.png') center right no-repeat;
+	background-size: contain !important;
+	position: absolute;
+	left:0;
+	z-index: -9999;
+	text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+@media screen and (max-width:660px){
+	.album {
+		height:315px;
+		width:311px;
+	}
+	.bottom {
+		height:1300px;
+	}
+	.member, .member2, .btsalbum {
+		display:block;
+	}
+	.member2{
+		height:684px;
+	}
+	.member{
+		height:912px;
+	}
+	.face, .face2{
+		width: 300px;
+		height:198px;
+	}
+	.jk {
+		content: url(images/jungkook2.png);
+	}
+	.suga{
+		content: url(images/suga2.png);
+	}
+	.jin{
+		content: url(images/jin2.png);
+	}
+	.rapmon{
+		content: url(images/rapmonster2.png);
+	}
+	.v{
+		content: url(images/v2.png);
+	}
+	.jimin{
+		content: url(images/jiminsmall.png);
+	}
+	.jhope{
+		content: url(images/jhope2.png);
+	}
+	.background-o{
+	display:none;
+	}
+}
+@media screen and (min-width:661px) and (max-width:919px){
+	.album {
+		height:315px;
+		width:311px;
+	}
+	.member, .member2 {
+		display:block;
+		height:820px;
+	}
+	.member2 {
+		margin-top:80px;
+	}
+	.face, .face2{
+		width: 300px;
+		height:198px;
+	}
+	.bottom{
+		height:650px;
+	}
+	.jk {
+		content: url(images/jungkook2.png);
+	}
+	.suga{
+		content: url(images/suga2.png);
+	}
+	.jin{
+		content: url(images/jin2.png);
+	}
+	.rapmon{
+		content: url(images/rapmonster2.png);
+	}
+	.v{
+		content: url(images/v2.png);
+	}
+	.jimin{
+		content: url(images/jiminsmall.png);
+	}
+	.jhope{
+		content: url(images/jhope2.png);
+	}
+	.background-o{
+	display:none;
+	}
+}
+@media screen and (min-width:920px) and (max-width:1400px){
+	.top{
+		height:70vh;
+	}
+	.bottom{
+		height:30vh;
+	}
+	.btsalbum {
+		height:30vh;
+		width:1284px;
+	}
+	.album {
+		height:173px;
+		width:170px;
+	}
+	.member, .member2 {
+		display:flex;
+		height:165px;
+	}
+	.member {
+		width:920px;
+	}
+	.member2 {
+		width:708px;
+	}
+	.face, .face2{
+		width: 200px;
+		height:132px;
+	}
+	.love{
+		background-image:url(images/loveyourself2.jpg);
+	}
+	.wings{
+		content:url(images/wings2.jpg);
+	}
+	.dark{
+		content:url(images/darkandwild2.jpg);
+	}
+	.young{
+		content:url(images/youngforever2.jpg);
+	}
+}
+@media screen and (min-width:1401px){
+	.top{
+		display:block;
+		height:60vh;	
+	}
+	.bottom{
+		height:40vh;
+	}
+	.logo{
+		height:140px;
+		width:247px;
+		content: url(images/btslogo.png);
+	}
+	.btsalbum {
+		height:40vh;
+		width:1284px;
+	}
+	.album {
+		height:315px;
+		width:311px;
+	}
+	.member, .member2 {
+		display:flex;
+		height:162px;
+	}
+	.member {
+		width:920px;
+		margin-top:20px;
+		margin-left:calc(100vw /2 - (200px*4/2 + 6*15px/2));
+	}
+	.member2 {
+		width:708px;
+		margin-top:20px;
+		margin-left:calc(100vw /2 - (200px*3/2 + 4*15px/2)); 
+	}
+	.face, .face2{
+		width: 200px;
+		height:132px;
+	}
+}

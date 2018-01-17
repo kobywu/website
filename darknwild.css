@@ -1,3 +1,111 @@
 body{
 	background-color:#1B2B3A;
 }
+
+@media screen and (max-width:399px){
+	.tracklist{
+	height:650px;
+}
+.navbar {
+	display:block;
+	width:100vw;
+	height:300px;
+}
+.navbar a {
+	width:100vw;
+	height:50px;
+}
+.dropdown .dropbtn{
+	margin-left: calc(100vw/2 - 130px/2);
+}
+.top{
+	height:800px;
+}
+.dropdown-content, .dropdown-content a {
+	width:300px;
+}
+
+.dropdown-content{
+	margin-left: calc(100vw/2 - 290px/2);
+	height:300px;
+}
+.title{
+	display:flex;
+	text-align:center;
+	width:90vw;
+	height:100px;
+	font-size:50px;
+}
+.dropdown-content a:hover{
+	width:89%;
+}
+}
+@media screen and (min-width:400px) and (max-width:794px){
+.music{
+		height:350px;
+	}
+.promo{
+	height:810px;
+}
+.dropdown-content a:hover{
+	width:89%;
+}
+	.tracklist{
+	height:650px;
+}
+.navbar {
+	display:block;
+	width:100vw;
+	height:300px;
+}
+.navbar a {
+	width:100vw;
+	height:50px;
+	font-size:30px;
+}
+.dropdown .dropbtn{
+	margin-left: calc(100vw/2 - 130px/2);
+	font-size:30px;
+}
+.top{
+	height:800px;
+}
+.dropdown-content, .dropdown-content a {
+	width:300px;
+}
+.dropdown-content{
+	margin-left: calc(100vw/2 - 240px/2);
+	height:310px;
+}
+
+.title{
+	display:flex;
+	text-align:center;
+	width:100vw;
+	height:200px;
+}
+}
+@media screen and (min-width:795px) and (max-width:1109px){
+	.promo{
+		height:500px;
+	}
+	
+	.music{
+	height:350px;
+}
+.title{
+	display:flex;
+	text-align:center;
+	width:100vw;
+	height:100px;
+}
+
+}
+@media screen and (min-width:1110px){
+.promo{
+	height:400px;
+}
+.music{
+	height:150px;
+}
+}

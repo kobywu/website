@@ -97,12 +97,13 @@ body {
 	justify-content:center;
 	margin-top:50px;
 }
-
+.tracklist{
+	font-size:20px;
+}
 .tracklist, .about{
 	display:block;
 	text-align:center;
 	color:white;
-	font-size:20px;
 	font-family:Times;
 }
 .album_title, .about{
@@ -128,7 +129,6 @@ body {
 .more {
 	width:70%;
 }
-
 .image:hover, .opacity, .songs:hover{
 	opacity:0.3;
 	cursor:pointer;
